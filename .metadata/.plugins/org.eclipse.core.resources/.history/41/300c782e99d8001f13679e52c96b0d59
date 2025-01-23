@@ -1,0 +1,22 @@
+package inflean.array;
+
+import java.util.Scanner;
+
+public class Array04 {
+	
+
+	 int[] solution(int[] aArr, int[] bArr) {
+		
+
+		 
+		return null;
+	}
+	
+	public static void main(String[] args) {
+		Array04 t = new Array04();
+		Scanner sc = new Scanner(System.in);
+		
+	}
+
+
+}

@@ -1,0 +1,9 @@
+package ssafy.oopArray.ws;
+
+public class Movie {
+	private int id;
+	private String title;
+	private String director;
+	private String genre;
+	private int runnigTime;
+}

@@ -1,0 +1,37 @@
+package ssafy.oopArray.ws;
+
+public class MovieManager {
+	
+	private int size;
+	private Movie[] movieList;
+	private final int MAX_SIZE = 100;
+	
+	public void add(Movie movie) {
+		// 최대 사용자 개수에 도달하지 않았으면 사용자 추가
+		if (size < MAX_SIZE) {
+			movieList[size++] = movie;
+		} else {
+			System.out.println("유저의 수가 100을 넘었습니다. 등록 불가.");
+		}
+		
+	}
+	
+	public Movie[] getList() {
+		return movieList;
+	}
+	
+	public Movie searchByTitle(String title) {
+		for(int i=0; i<movieList.length;i++) {
+			if(movieList[i].getTitle().equals(title)) {
+				return movieList[i];
+			}else {
+				return "일치하는 타이틀 없음";
+			}
+		}
+		return null;
+		
+				
+	}
+	
+
+}

@@ -1,0 +1,22 @@
+package ssafy.oopArray.ws;
+
+public class MovieTest {
+	
+	public static void main(String[] args) {
+		
+		Movie m = new Movie();
+		m.setId(1);
+		m.setTitle("어벤져스");
+		m.setDirector("홍길동");
+		m.setGenre("히어로");
+		m.setRunnigTime(2);
+		
+		Movie m2 = new Movie(2, "파묘", "김길동", "오컬트", 3);
+		
+		MovieManager mm = new MovieManager();
+		mm.add(m);
+		mm.add(m1);
+		
+	}
+	
+}

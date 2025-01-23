@@ -1,0 +1,13 @@
+package ssafy.oopArray.ws;
+
+public class MovieTest {
+	
+	public static void main(String[] args) {
+		
+		Movie m = new Movie();
+		m.setId(1);
+		m.setTitle("어벤져스");
+		
+	}
+	
+}

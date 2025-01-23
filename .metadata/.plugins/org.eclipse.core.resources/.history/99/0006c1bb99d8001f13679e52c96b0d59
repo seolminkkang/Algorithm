@@ -1,0 +1,27 @@
+package inflean.array;
+
+import java.util.Scanner;
+
+public class Array04 {
+
+	int[] solution(int num) {
+		int[] ans = new int[num];
+		ans[0] = 1;
+		for (int i = 1; i < num; i++) {
+			ans[i] += ans[i-1];
+		}
+
+		return null;
+	}
+
+	public static void main(String[] args) {
+		Array04 t = new Array04();
+		Scanner sc = new Scanner(System.in);
+
+		int num = sc.nextInt();
+
+		System.out.println(t.solution(num));
+
+	}
+
+}

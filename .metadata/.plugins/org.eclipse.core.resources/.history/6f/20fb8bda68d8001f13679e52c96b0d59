@@ -1,0 +1,17 @@
+package ssafy.oop;
+
+public class MovieTest {
+	public static void main(String[] args) {
+		
+		Movie m1 = new Movie(); 
+		m1.id = 001;
+		m1.title = "검은수녀들";
+		m1.director = "홍길동";
+		m1.genre = "오컬트";
+		m1.runningTime = 120;
+		
+		System.out.println(m1);
+		
+		
+	}
+}

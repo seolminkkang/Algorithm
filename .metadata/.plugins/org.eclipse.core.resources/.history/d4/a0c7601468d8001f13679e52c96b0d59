@@ -1,0 +1,7 @@
+package ssafy.oop;
+
+public class MovieTest {
+	public static void main(String[] args) {
+		
+	}
+}

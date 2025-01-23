@@ -1,0 +1,12 @@
+package ssafy.oop.ws.step4;
+
+public class RestaurantTest {
+	public static void main(String[] args) {
+		Restaurant r1 = new Restaurant();
+		r1.resId = 10; 
+		r1.name = "을밀대";
+		r1.address = "서울";
+		r1.signatureMenu = "냉명";
+		r1.rate = 4
+	}
+}

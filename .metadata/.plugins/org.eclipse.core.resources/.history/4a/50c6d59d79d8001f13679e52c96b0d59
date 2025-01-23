@@ -1,0 +1,8 @@
+package ssafy.oop.ws.step4;
+
+public class Review {
+	int reviewId;
+	int resId;
+	String writer;
+	String content;
+}

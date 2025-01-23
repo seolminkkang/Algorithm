@@ -1,0 +1,27 @@
+package inflean.array;
+
+import java.util.Scanner;
+
+public class Array01 {
+
+	
+	public int solution(int num) {
+		
+	}
+	
+
+	public static void main(String[] args) {
+		
+		Array01 t = new Array01();
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int num = sc.nextInt();
+		
+		System.out.println(t.solution(num));
+		
+		
+	}
+	
+	
+}

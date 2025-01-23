@@ -1,0 +1,7 @@
+package ssafy.oop.ws.step4;
+
+public class RestaurantTest {
+	public static void main(String[] args) {
+		Restaurant r1 = new Restaurant();
+	}
+}

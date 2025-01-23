@@ -1,0 +1,17 @@
+package ssafy.oopArray.ws;
+
+import ssafy.oop.ws.step2.Movie;
+
+public class MovieManager {
+	
+	private int size;
+	private Movie[] movieList;
+	private final int MAX_SIZE = 100;
+	
+	public void add(Movie movie) {
+		
+		
+	}
+	
+
+}

@@ -1,0 +1,22 @@
+package ssafy.oopArray.ws;
+
+import ssafy.oop.ws.step2.Movie;
+
+public class MovieManager {
+	
+	private int size;
+	private Movie[] movieList;
+	private final int MAX_SIZE = 100;
+	
+	public void add(Movie movie) {
+		// 최대 사용자 개수에 도달하지 않았으면 사용자 추가
+		if (size < MAX_SIZE) {
+			userList[size++] = user;
+		} else {
+			System.out.println("유저의 수가 100을 넘었습니다. 등록 불가.");
+		}
+		
+	}
+	
+
+}
