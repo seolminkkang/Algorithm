@@ -33,11 +33,11 @@ public class MovieManager {
 		
 		
 		// filter
-		Movie[] m1 = Arrays.stream(movieList).filter(m-> m != null).toArray(Movie[] :: new);
+		// Movie[] m1 = Arrays.stream(movieList).filter(m-> m != null).toArray(Movie[] :: new);
 		
 		
 		
-		return m1;
+		return newM;
 	}
 	
 	public Movie searchByTitle(String title) {

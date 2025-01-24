@@ -1,0 +1,14 @@
+package algo.stream;
+
+import java.util.Arrays;
+
+public class StreamTest3 {
+	public static void main(String[] args) {
+			String num_str = "123456789";
+			
+			int[] answer = Arrays.stream(num_str.split("")).mapToInt(Integer::parseInt).toArray();
+			
+			
+			
+	}
+}

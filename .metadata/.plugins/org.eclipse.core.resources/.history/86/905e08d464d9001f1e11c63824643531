@@ -1,0 +1,7 @@
+package algo.stream;
+
+public class StreamTest3 {
+	public static void main(String[] args) {
+			String num_str = "";
+	}
+}

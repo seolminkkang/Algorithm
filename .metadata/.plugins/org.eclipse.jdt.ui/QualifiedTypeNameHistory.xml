@@ -3,6 +3,13 @@
     <fullyQualifiedTypeName name="ssafy.oop.ws.step4.Restaurant"/>
     <fullyQualifiedTypeName name="ssafy.oop.ws.step4.Review"/>
     <fullyQualifiedTypeName name="com.sun.java_cup.internal.runtime.Scanner"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="ssafy.oop.ws.step2.Movie"/>
+    <fullyQualifiedTypeName name="ssafy.oopArray.ws.MovieManager"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.HashSet"/>
+    <fullyQualifiedTypeName name="java.util.Comparator"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.util.stream.IntStream"/>
+    <fullyQualifiedTypeName name="ssafy.inher.ws.step1.ElectricCar"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
 </qualifiedTypeNameHistroy>
